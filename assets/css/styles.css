@@ -15,6 +15,9 @@
     box-sizing: border-box;
 }
 
+img {  
+    user-select: none;
+ }
 
 html {
     scroll-behavior: smooth;
@@ -359,7 +362,7 @@ html {
     width: 70%;
     align-items: center !important;
     position: static;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 .jornada-indicators button {
@@ -381,10 +384,12 @@ html {
 .jornada-slides {
     padding: 0 20%;
     color: var(--white-color);
+    font-size: 17px;
+    
 }
 
 .jornada-title {
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 
@@ -395,6 +400,7 @@ html {
 
 .carousel-item {
     transition: all 300ms;
+    position: static;
 }
 
 
